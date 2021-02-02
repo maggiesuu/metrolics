@@ -18,7 +18,7 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/index.css">
+    <!-- <link rel="stylesheet" href="css/index.css"> -->
     <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -52,16 +52,16 @@
     <header class="page__header">
         <div class="row">
             <h1 class="home_heading">Metrolics</h1>
-            <div class="column">Home</div>
-            <div class="column">Pages</div>
-            <div class="column">Blog</div>
-            <div class="column">Portfolio</div>
-            <div class="column">Home</div>
+            <div class="header_column homeone_column">Home</div>
+            <div class="header_column pages_column">Pages</div>
+            <div class="header_column blog_column">Blog</div>
+            <div class="header_column portfolio_column">Portfolio</div>
+            <div class="header_column hometwo_column">Home</div>
         </div>
     </header>
 
     <div class="page__slider">
-        <div class="row">
+        <div class="minion_row">
             <div class="column">
                 <img src="img/minions.png" alt="slider placeholder">
             </div>
@@ -69,7 +69,8 @@
 
         <div class="page__intro">
             <div class="row">
-                <h1 class="heading">Hey Guys! This is the Metrolics theme.<br> It sports a responsive layout with a
+                <h1 class="heading">Hey Guys! This is the <span class="metrolicsblue">Metrolics</span> theme.<br> It
+                    sports a responsive layout with a
                     mobile layout</h1>
             </div>
         </div>
@@ -77,7 +78,8 @@
         <section class="about">
             <div class="row l-col-4">
                 <div class="column span-full">
-                    <h2 class="heading">Things That We Do<br>Ask us what we can do for you</h2>
+                    <h2 class="heading">Things That We Do<br><span class="smallertext">Ask us what we can do for
+                            you</span></h2>
                     <div class="column">
                         <h3 class="heading">Web Solutions</h3>
                         <p>We are a fairly small, flexible design studio that designs for print and web. We work
@@ -103,12 +105,13 @@
         <section class="projects--new">
             <div class=" row m-col-2 l-col-3">
                 <div class="column span-full">
-                    <h2 class="heading">What's Up Lately?<br>Read up on our latest work</h2>
+                    <h2 class="heading">What's Up Lately?<br><span class="smallertext">Read up on our latest work</span>
+                    </h2>
                 </div>
 
                 <div class="column special-project">
                     <figure class="project">
-                        <!-- <img src="img/design.jpg" alt="placeholder"> -->
+                        <img src="img/placeholder.svg" alt="placeholder" class="whatsup_picture">
                         <figcaption class="project__caption">
                             <h3 class="heading">Sample Image Post<br>Photography</h3>
                             <p>29<br> Nov, 2013
@@ -120,7 +123,7 @@
 
                 <div class="column">
                     <figure class="project">
-                        <!-- <img src="img/design.jpg" alt="placeholder"> -->
+                        <img src="img/placeholder.svg" alt="placeholder" class="whatsup_picture">
                         <figcaption class="project__caption">
                             <h3 class="heading">Sample Image Post<br>Photography</h3>
                             <p>29<br> Nov, 2013
@@ -131,7 +134,7 @@
 
                 <div class="column">
                     <figure class="project">
-                        <!-- <img src="img/design.jpg" alt="placeholder"> -->
+                        <img src="img/placeholder.svg" alt="placeholder" class="whatsup_picture">
                         <figcaption class="project__caption">
                             <h3 class="heading">Sample Image Post<br>Photography</h3>
                             <p>29<br> Nov, 2013
@@ -147,12 +150,13 @@
         <section class="projects">
             <div class=" row m-col-2 l-col-3">
                 <div class="column">
-                    <h2 class="heading">Our Latest Projects<br>Client happy? We are happy</h2>
+                    <h2 class="heading">Our Latest Projects<br><span class="smallertext">Client happy? We are
+                            happy</span></h2>
                 </div>
 
                 <div class="column">
                     <figure class="project">
-                        <!-- <img src="img/design.jpg" alt="placeholder"> -->
+                        <img src="img/placeholder.svg" alt="placeholder" class="projects_picture">
                         <figcaption class="project__caption">
                             <h3 class="heading">Sample Image Post<br>Photography</h3>
                         </figcaption>
@@ -161,15 +165,34 @@
 
                 <div class="column">
                     <figure class="project">
-                        <!-- <img src="img/design.jpg" alt="placeholder"> -->
+                        <img src="img/placeholder.svg" alt="placeholder" class="projects_picture">
                     </figure>
                 </div>
 
                 <div class="column">
                     <figure class="project">
-                        <!-- <img src="img/design.jpg" alt="placeholder"> -->
+                        <img src="img/placeholder.svg" alt="placeholder" class="projects_picture">
                     </figure>
                 </div>
+
+                <div class="column">
+                    <figure class="project">
+                        <img src="img/placeholder.svg" alt="placeholder" class="projects_picture">
+                    </figure>
+                </div>
+
+                <div class="column">
+                    <figure class="project">
+                        <img src="img/placeholder.svg" alt="placeholder" class="projects_picture">
+                    </figure>
+                </div>
+
+                <div class="column">
+                    <figure class="project">
+                        <img src="img/placeholder.svg" alt="placeholder" class="projects_picture">
+                    </figure>
+                </div>
+
 
             </div>
         </section>
@@ -178,7 +201,8 @@
         <section class="thingsofabove">
             <div class="row l-col-2">
                 <div class="column">
-                    <h2 class="heading span-full">Thingsofabove<br>Misc stuff we could not put anyplace else</h2>
+                    <h2 class="heading span-full">Thingsofabove<br><span class="smallertext">Misc stuff we could not put
+                            anyplace else</span></h2>
                 </div>
             </div>
 
@@ -211,58 +235,72 @@
         <section class="sponsors">
             <div class="row m-col-5">
                 <div class="column">
-                    <!-- <img src="img/netbeans.png" alt="placeholder"> -->
+                    <img src="img/placeholder.svg" class="sponsors_img">
                 </div>
                 <div class="column">
-                    <!-- <img src="img/" alt="placeholder"> -->
+                    <img src="img/placeholder.svg" class="sponsors_img">
                 </div>
                 <div class="column">
-                    <!-- <img src="img/" alt="placeholder"> -->
+                    <img src="img/placeholder.svg" class="sponsors_img">
                 </div>
                 <div class="column">
-                    <!-- <img src="img/blender.png" alt="placeholder"> -->
+                    <img src="img/placeholder.svg" class="sponsors_img">
                 </div>
                 <div class="column">
-                    <!-- <img src="img/inkspace.svg" alt="placeholder"> -->
+                    <img src="img/placeholder.svg" class="sponsors_img">
                 </div>
             </div>
         </section>
 
         <footer class="page__footer">
             <div class="row m-col-2 l-col-4">
-                <div class="page__footer__intro column  span-full">
-                    <!-- <img class="peewee" src="img/peeweeherman.jpg" alt="peewee"> -->
-                    <h3 class="heading">Peewee Herman</h3>
-                    <p>Peewee has over 10 years experience in the industry. He is our Creative Director, digital
+                <div class="page__footer__intro column span-full peeweefloat">
+                    <img src="img/placeholder.svg" alt="Peewee" class="peewee_picture">
+                    <h3 class="footer_heading peewee_heading">Peewee Herman</h3>
+                    <p class="peewee_para footer_para">Peewee has over 10 years experience in the industry. He is our
+                        Creative Director, digital
                         designer, web designer and front-end developer. He is also pretty good with a sketchbook. Before
                         starting the company Peewee worked as a designer
                         and studio manager for a design house who boasted a number of big name clients.</p>
                 </div>
-                <div class="column">
-                    <h4>About Us</h4>
-                    <p>Minions ipsum potatoooo potatoooo uuuhhh. Chasy poulet tlkka masala jiji wiiiii hahaha po kass
+                <div class="column foot-column">
+                    <h4 class="footer_heading">About Us</h4>
+                    <p class="footer_para">Minions ipsum potatoooo potatoooo uuuhhh. Chasy poulet tlkka masala jiji
+                        wiiiii hahaha po kass
                         tulalloo potatoooo. Bee do bee do bee do chasy tl aamoo! Po kass daa bee do bee do bee do po
                         kass wilili butt chasy. Pepete uuuhhh hahaha
                         gelatooo belloo! Baanaaaa aaaaaah but</p>
                 </div>
-                <div class="column">
-                    <h4>Flickr Photos</h4>
+                <div class="column foot-column">
+                    <h4 class="footer_heading">Flickr Photos</h4>
+                    <div class="flickrimages">
                         <img src="img/placeholder.svg" class="flickr_img">
                         <img src="img/placeholder.svg" class="flickr_img">
                         <img src="img/placeholder.svg" class="flickr_img">
                         <img src="img/placeholder.svg" class="flickr_img">
                         <img src="img/placeholder.svg" class="flickr_img">
                         <img src="img/placeholder.svg" class="flickr_img">
+                    </div>
                 </div>
 
-                <div class="column">
-                    <h4>Recent Tweets</h4>
+                <div class="column foot-column">
+                    <h4 class="footer_heading">Recent Tweets</h4>
+                    <p class="footer_para"><span>@Minions</span> - Ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka
+                        masala jiji wiiiii hahaha po kass</p>
+                    <p class="footer_para"><span>@Minions</span> - Ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka
+                        masala jiji wiiiii hahaha</p>
                 </div>
-                <div class="column">
-                    <h4>Newsletter</h4>
-                    <p>Minions ipsum potatoooo potatoooo uuuhh. Chasy poulet tikka masala jiji wiiiii hahaha po kass
+                <div class="column foot-column">
+                    <h4 class="footer_heading">Newsletter</h4>
+                    <p class="footer_para">Minions ipsum potatoooo potatoooo uuuhh. Chasy poulet tikka masala jiji
+                        wiiiii hahaha po kass
                         tulalloo potatoooo. Bee do ee do bee do chasy ti aamoo! Po kass daa b ee do bee do bee do po
                         kass wiiiii butt chasy. Pepete uuuhh</p>
+
+
+                    <input class="input-field" type="text" placeholder="Enter your Email...">
+                    <button>Send</button>
+
                 </div>
             </div>
         </footer>

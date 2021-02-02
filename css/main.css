@@ -114,7 +114,7 @@ border: 1px solid #ccc;
 }
 
 .column {
-background-color: rgb(230, 212, 189);
+background-color: rgb(255, 255, 255);
 margin: 1rem;
 }
 
@@ -126,20 +126,135 @@ text-align: center;
 width: 85vw;
 max-width: 70rem;
 margin: 0 auto;
+background-color: rgb(255, 255, 255);
 }
 
 .page__slider {
-background-color: rgb(133, 185, 144);
+background-color: rgb(255, 255, 255);
+}
+
+.smallertext {
+    color: grey;
+    font-size: 1rem;
+}
+
+/*MINION HEADING*/
+.header_column {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.home_heading {
+    display: flex;
+    justify-content: center;
+}
+
+.homeone_column {
+    background-color: rgb(76, 185, 76);
+}
+
+.pages_column {
+    background-color: rgb(196, 169, 17);
+}
+
+.blog_column {
+    background-color: rgb(211, 76, 76)
+}
+
+.portfolio_column {
+    background-color: rgb(118, 187, 226);
+}
+
+.hometwo_column {
+    background-color: rgb(53, 97, 155);
+}
+
+.minion_row {
+    background-color: grey;
+}
+
+/*HEY GUYS*/
+.metrolicsblue {
+    color: rgb(56, 126, 230);
+}
+
+/*THINGS THAT WE DO*/
+
+/*WHAT'S UP LATELY*/
+.whatsup_picture {
+    width: 15em;
+}
+
+/*OUR LATEST PROJECTS*/
+.projects_picture {
+    width: 15em;
+}
+
+
+/*SPONSORS*/
+.sponsors_img {
+    width: 10em;
 }
 
 /*FOOTER*/
 .page__footer {
-background-color: rgb(73, 47, 47);
+    background-color: rgb(41, 54, 83);
 }
 
-.flickr_img {
-    width: 100px;
+.footer_heading{
+    color: rgb(255, 255, 255);
 }
+
+.foot-column {
+    background-color: rgb(41, 54, 83);
+}
+
+.footer_para {
+    color: rgb(255, 255, 255);
+}
+/*PEEWEE*/
+.peewee_picture {
+    width: 12em;
+    float: left;
+}
+
+.peeweefloat {
+    float: left;
+    background-color: rgb(41, 54, 83);
+}
+
+.peewee_heading {
+    color: white;
+}
+
+.peewee_para {
+    color: white;
+}
+
+/* FLICKR */
+
+.flickr_img {
+    width: 10em;
+}
+
+/*RECENT TWEETS*/
+span {
+    color: rgb(54, 96, 214);
+    font-weight: bold;
+}
+
+/*NEWSLETTER*/
+input {
+    background-color: rgb(211, 151, 151);
+    color: white;
+}
+
+button {
+    background-color: yellow;
+}
+
+
 
 @media screen and (max-width: 39.9375em) {
 /*Small only*/
@@ -152,6 +267,7 @@ background-color: rgb(73, 47, 47);
     width: 85vw;
     max-width: 70rem;
     margin: 0 auto;
+    background-color: white;
 }
 
 .m.col-2 {
