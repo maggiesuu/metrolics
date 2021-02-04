@@ -188,6 +188,38 @@ html {
     .whatsup_picture {
         width: 15em;
     }
+
+    .about_four {
+        margin: auto;
+        text-align: center;
+    }
+
+    .things_icon {
+        width: 3.5em;
+        
+    }
+
+    .lightbulb {
+        border: 2px solid rgb(238, 217, 32);
+        padding: 0.5em;
+    }
+
+    .photography {
+        border: 2px solid rgb(83, 212, 83);
+        padding: 0.5em;
+    }
+
+    .cog {
+        border: 2px solid rgb(230, 42, 42);
+        padding: 0.5em;
+    }
+
+    .pencil {
+        border: 2px solid rgb(86, 138, 216);
+        padding: 0.5em;
+    }
+
+
     
     /*OUR LATEST PROJECTS*/
     .projects_picture {
@@ -199,6 +231,8 @@ html {
     .sponsors_img {
         width: 10em;
     }
+
+    
     
     /*FOOTER*/
     .page__footer {
@@ -216,6 +250,20 @@ html {
     .footer_para {
         color: rgb(255, 255, 255);
     }
+
+    .page__footer__intro {
+        background-color: blue;
+    }
+
+    .footer_color {
+        background-color: rgb(41, 54, 83);
+    }
+
+    .footer {
+        background-color: rgb(41, 54, 83);
+    }
+
+    
     
     
     /*PEEWEE*/
@@ -291,6 +339,15 @@ html {
         grid-column-start: 1;
         grid-column-end: -1;
     }
+
+    .footer_color {
+        background-color: rgb(41, 54, 83);
+    }
+
+
+
+    
+
     
     @media screen and (min-width: 40em) and (max-width:63.9375em) {
     /*Medium only screen*/
